@@ -1,27 +1,50 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<!--
+	Eventually by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
 	<head>
-    	<meta charset="utf-8">
-    	<meta name="description" content="This is where your description goes">
-    	<meta name="keywords" content="one, two, three">
-
 		<title>NASA - APOD</title>
-
-		<!-- external CSS link -->
-		<link rel="stylesheet" href="css/normalize.css">
-		<link rel="stylesheet" href="css/style.css">
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/responsive.css">
 	</head>
-	<body>
+	<body class="is-preload">
 
-		<h1>NASA - Astronomy Picture of the Day</h1>
-		<input type="date" name="" value="">
-		<button type="button" name="button">GET APOD</button>
+		<section>
+		<!-- Header -->
+			<header id="header">
+				<div>
+					<img src="nasaLogo.png" alt="">
+				</div>
+				<h1>Astronomy Picture of the Day</h1>
+				<p>Browse any date you want!</p>
+			</header>
 
-		<h2></h2>
-		<img src="" alt="">
-		<iframe src="" frameborder="0"></iframe>
-		<h3></h3>
+		<!-- Signup Form -->
+			<form id="signup-form" method="post" action="#">
+				<input id="date" type="date" value="" min="1995-06-25" max="2023-04-25">
+				<button id="button" type="button" name="button">GET APOD</button>
+			</form>
+		</section>
 
-		<script type="text/javascript" src="main.js"></script>
+		<section id="apod">
+			<h2 id="title"></h2>
+			<h3 id="explanation"></h3>
+			<div id="contenedorMedia">
+				<img id="nasaImg" src="" alt="">
+				<iframe id="nasaVid" src="" frameborder="0"></iframe>
+			</div>
+			
+		</section>
+
+		<!-- Scripts -->
+			<script src="assets/js/main.js"></script>
+			<script src="assets/js/apod.js"></script>
+			
+
 	</body>
 </html>
