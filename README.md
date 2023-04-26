@@ -23,4 +23,4 @@ I consistently refactor and optimize my code, sometimes for efficiency, sometime
 
 ## Lessons Learned:
 
-During the development of this project, I learned the importance of thorough planning and organization in order to avoid confusion and delays.
+During the development of this project, I learned how to interact with APIs.
